@@ -1,0 +1,20 @@
+/*tipos de formatos:
+-open type (otf)
+-True type (ttf)
+-embed open type
+-truetype-aad
+-svg*/
+@charset "UTF-8";
+
+@font-face{font-family:"Sandy" ;
+    src: url("Sandy/Sandy-Regular.otf") format("opentype"),url("Sandy/Sandy-Regular.ttf"),format("truetype") ;}
+
+@font-face{font-family:"Dot";
+    src: url("DotFont/DOTFONT-.TTF"),format("truetype") ;}
+
+body{background-image: linear-gradient(to right,black,gray);
+}
+
+h1{color: white ;font-family: "Dot";}
+
+p{color: white;font-family: "Sandy";}
