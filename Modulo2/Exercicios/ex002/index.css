@@ -1,0 +1,14 @@
+@charset "UTF-8";
+*{
+    /*height: 100%;*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{ background-image: linear-gradient(to right,#313B2F,#6A736F,#B0B6BA,#CBCFD1);background-attachment: fixed;font-size: 20px;}
+
+
+h1{color: orange;text-shadow: 3px 3px 5px rgba(219, 147, 12, 0.726);font-family: 'Zen Dots', cursive;}
+p{color: orange;text-shadow: 3px 3px 5px rgba(219, 147, 12, 0.726);font-family: 'Indie Flower', cursive;}
