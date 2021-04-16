@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Roboto-Black", sans-serif ;
+    font-style: normal;
+    font-weight: normal;  
+    src: url('Fonts/Roboto-Black.ttf') format('truetype');}
+    @font-face {
+        font-family: "Great+Vibes&",cursive ;
+
+        src: url('Fonts/GreatVibes-Regular.ttf') format('truetype');}   
+
+.body1 {position:relative;margin: 0px;border: none;} 
+.body2{position:relative;margin: 10px;border: 10px;}
+
+.div1{
+    position: relative;
+    margin: 0px;
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    background-attachment:fixed ;
+    display: inline-block;}
+
+h1,h2{font-family: "Roboto-Black", sans-serif ;;
+    text-align: center;
+    color: #2C2C2C;}
+
+p{  font-family: 'Great Vibes', cursive;
+    text-align: justify;
+    color: #2C2C2C;
+    border: 200px;}
