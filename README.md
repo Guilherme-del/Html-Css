@@ -2,7 +2,7 @@
 Aprendizado/
 Html e CSS para iniciantes
 
-<img  alt=”some text” width=300 height=200 src=”img/logo.png” >
+<img width=300 height=200 src=”img/logo.png” >
 
 <ul type= "square">
  <li>Modulo 1</li>
