@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/* tudo que em html é id em css é "#"
+Tudo que em html é class em css é "."*/
+:root /* define variaveis em css*/
+{--vermelho: #e50914;
+--preta: #141414;}
+
+*{ margin: 0;padding: 0;box-sizing: border-box; /* limita os elementos na borda da caixa*/}
+
+body{ background: var(--preta);font-family: 'Arial', Times, serif;background-attachment: fixed;} 
+
+header .container{display: flex; /* alinha os elementos em linha */ margin-left: auto;margin-right: auto;width: 42.5em;color:#e50914; }
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;}
+
+h2#Principal{text-align: center;color: var(--vermelho);font-size: 30px;} 
+
+p#Conteudo{background-color: white;text-indent:4em;text-align:center;height: 428px;padding-top: 10%;padding-bottom: 20%;padding-right: 5%;padding-left: 5%;font-family: 'Sacramento', cursive;font-size: 20px;}
+
+.fancy {
+    width: 500px;
+    margin: 20px auto;
+    border: solid 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px white;}
+
